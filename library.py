@@ -20,3 +20,8 @@ import datetime
 tomorrow = datetime.date.today() #+ datetime.timedelta(days=1)
 print(tomorrow)
 print (tomorrow.day)  # Current date and time
+import numpy as np
+
+# Create a simple array
+my_array = np.array([1, 2, 3, 4, 5])
+print("Array:", my_array)
